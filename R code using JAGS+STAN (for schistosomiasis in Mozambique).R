@@ -10,13 +10,12 @@ library(coda)
 
 # Read the data
 library(readr)
-data_MZ_LF_iu <- read_csv("C:/Users/User/Desktop/Debashis 2024/Tropical Disease PLOS/Datasets/data-MZ-LF-iu.csv")
-#data_MZ_SCH_iu <- read_csv("C:/Users/User/Desktop/Debashis 2024/Tropical Disease PLOS/Datasets/data-MZ-SCH-iu.csv")
+#data_MZ_LF_iu <- read_csv("C:/Users/User/Desktop/Debashis 2024/Tropical Disease PLOS/Datasets/data-MZ-LF-iu.csv")
+data_MZ_SCH_iu <- read_csv("C:/Users/User/Desktop/Debashis 2024/Tropical Disease PLOS/Datasets/data-MZ-SCH-iu.csv")
 #data_MZ_STH_iu <- read_csv("C:/Users/User/Desktop/Debashis 2024/Tropical Disease PLOS/Datasets/data-MZ-STH-iu.csv")
 
-
-data <- data_MZ_LF_iu
-#data <- data_MZ_SCH_iu
+#data <- data_MZ_LF_iu
+data <- data_MZ_SCH_iu
 #data <- data_MZ_STH_iu
 
 
